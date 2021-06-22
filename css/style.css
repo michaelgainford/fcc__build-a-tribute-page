@@ -131,6 +131,7 @@ main {
 .image img {
   border: 20px solid var(--clr1);
   height: auto;
+  margin: auto;
   max-width: 100%;
 }
 .image p {
