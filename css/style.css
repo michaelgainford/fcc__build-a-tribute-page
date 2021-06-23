@@ -50,6 +50,9 @@ footer {
   max-width: 1200px;
   width: 100%;
 }
+a {
+  color: var(--clr1);
+}
 
 /** All stuff header related **/
 .header-container {
@@ -64,7 +67,7 @@ header {
 }
 @media (min-width: 900px) {
   header {
-    padding: 10rem;
+    padding: 5rem 10rem;
   }
 }
 h1 {
@@ -87,6 +90,7 @@ h1 a {
 @media (min-width: 900px) {
   h1 a {
     font-size: 1.8rem;
+    padding: 2rem;
   }
 }
 h1 a:hover {
@@ -121,19 +125,19 @@ main {
   }
 }
 .image {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
+  align-content: center;
+  display: grid;
   justify-content: center;
+  justify-items: center;
   max-width: 500px;
-  padding: 0 1rem 0 0;
+  padding: 0;
 }
 .image img {
   border: 20px solid var(--clr1);
   height: auto;
-  margin: auto;
   max-width: 100%;
 }
+
 .image p {
   background-color: var(--clr1);
   color: var(--clr3);
