@@ -1,2 +1,2 @@
-# build-a-tribute-page
+# Build a tribute page
 Free Code Camp challenge
